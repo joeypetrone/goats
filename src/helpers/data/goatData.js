@@ -228,4 +228,9 @@ const useGoat = (goatId) => {
   selectedGoat.isBusy = true;
 };
 
-export default { getGoats, useGoat };
+const freeGoat = (goatId) => {
+  const selectedGoat = goats.find((x) => x.id === goatId);
+  selectedGoat.isBusy = false;
+};
+
+export default { getGoats, useGoat, freeGoat };
