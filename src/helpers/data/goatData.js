@@ -18,7 +18,7 @@ const goats = [
     isBusy: true,
     beardLength: 'longer',
     isFainter: true,
-    imageUrl: 'https://www.washingtonian.com/wp-content/uploads/2017/06/6-30-17-goat-yoga-congressional-cemetery-1.jpg',
+    imgUrl: 'https://www.washingtonian.com/wp-content/uploads/2017/06/6-30-17-goat-yoga-congressional-cemetery-1.jpg',
     age: 7,
   },
   {
@@ -95,7 +95,7 @@ const goats = [
     isBusy: true,
     beardLength: 'short',
     isFainter: false,
-    imageUrl: 'https://images.unsplash.com/photo-1524024973431-2ad916746881?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80',
+    imgUrl: 'https://images.unsplash.com/photo-1524024973431-2ad916746881?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80',
     age: 2,
   },
   {
@@ -139,7 +139,7 @@ const goats = [
     isBusy: true,
     beardLength: 'short',
     isFainter: false,
-    url: 'https://tse2.mm.bing.net/th?id=OIP.xffIS1WTAuUUQPkoW-RPMwHaE8&pid=Api&P=0&w=243&h=163',
+    imgUrl: 'https://tse2.mm.bing.net/th?id=OIP.xffIS1WTAuUUQPkoW-RPMwHaE8&pid=Api&P=0&w=243&h=163',
     age: 50,
   },
   {
