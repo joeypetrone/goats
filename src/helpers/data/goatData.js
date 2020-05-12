@@ -223,6 +223,13 @@ const goats = [
 
 const getGoats = () => goats;
 
-// const setGoats = () =>
+const useGoat = (goatId) => {
+  goats.forEach((response) => {
+    if (response.id === goatId) {
+      response.isBusy = true;
+      console.log('response isBusy', response.isBusy);
+    }
+  });
+};
 
-export default { getGoats };
+export default { getGoats, useGoat };
