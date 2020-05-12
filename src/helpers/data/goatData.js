@@ -224,12 +224,8 @@ const goats = [
 const getGoats = () => goats;
 
 const useGoat = (goatId) => {
-  goats.forEach((response) => {
-    if (response.id === goatId) {
-      response.isBusy = true;
-      console.log('response isBusy', response.isBusy);
-    }
-  });
+  const selectedGoat = goats.find((x) => x.id === goatId);
+  selectedGoat.isBusy = true;
 };
 
 export default { getGoats, useGoat };
